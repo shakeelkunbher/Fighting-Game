@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* background-color: red; */
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("cf846f865abd23a212af8d2ebb657923.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: bottom;
+}
+
+.character {
+  position: absolute;
+  bottom: -40px;
+  left: 4%;
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+}
+
+.character2 {
+  position: absolute;
+  bottom: -20px;
+  right: 4%;
+  width: 240px;
+  height: 240px;
+  object-fit: contain;
+}
+
+.spider-div > div {
+  color: rgba(255, 255, 255, 0.363);
+  font-size: 25px;
+  padding: 10px;
+}
+.thanos-div {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  text-align: right;
+}
+
+.thanos-div > div {
+  color: rgba(255, 255, 255, 0.384);
+  font-size: 25px;
+  padding: 10px;
+  /* position: absolute; */
+}
